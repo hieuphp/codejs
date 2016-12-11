@@ -1,4 +1,4 @@
-window.jQuery;
+window.jQuery || document.write('<script src="https://rawgit.com/hieuphp/codejs/master/jquery-ui.js"><\/script>');
 (function (d, s, a) {
     var b, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(a)) return;

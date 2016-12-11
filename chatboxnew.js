@@ -7,7 +7,7 @@ window.jQuery || document.write('<script src="https://rawgit.com/hieuphp/codejs/
     b.src = '//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5';
     fjs.parentNode.insertBefore(b, fjs)
 }(document, 'script', 'facebook-jssdk'));
-var $ = jQuery.noConflict();
+
 $(document).ready(function () {
     $("#f_chat_name").html(f_chat_name);
     $("#f_enter_1").html(f_chat_star_1);
